@@ -12,6 +12,8 @@ d3plus
   .id('name')
   .x('year')
   .y('value')
+  .axes({ ticks: false })
+  .resize(true)
   .draw();
 
 d3.json(
@@ -25,6 +27,8 @@ d3.json(
       .id('name')
       .x('year')
       .y('value')
+      .axes({ ticks: false })
+      .resize(true)
       .draw();
   }
 );
@@ -40,6 +44,8 @@ d3.json(
       .id('name')
       .x('year')
       .y('value')
+      .axes({ ticks: false })
+      .resize(true)
       .draw();
   }
 );
