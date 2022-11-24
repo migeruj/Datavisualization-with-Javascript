@@ -13,7 +13,6 @@ d3plus
   .x('year')
   .y('value')
   .axes({ ticks: false })
-  .resize(true)
   .draw();
 
 d3.json(
